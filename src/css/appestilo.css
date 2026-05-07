@@ -1,0 +1,133 @@
+/* ===== BODY ===== */
+
+body{
+    background-color: #f7f5f3;
+    font-family: "Space Grotesk", sans-serif;
+    color: #1f2937;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ===== HEADER ===== */
+
+header{
+    width: 100%;
+    padding: 20px 40px;
+}
+
+/* ===== BOTÃO ===== */
+
+.btn-voltar{
+    background-color: #2f3d63;
+    color: white;
+    text-decoration: none;
+
+    padding: 12px 24px;
+    border-radius: 10px;
+
+    transition: 0.3s ease;
+
+    display: inline-block;
+    font-weight: 600;
+}
+
+.btn-voltar:hover{
+    background-color: #44598d;
+    transform: translateY(-2px);
+}
+
+/* ===== INTRO ===== */
+
+.intro-app{
+    width: 100%;
+    padding: 40px 20px 20px;
+}
+
+.intro-container{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tag-app{
+    font-family: "Noto Serif JP", serif;
+    color: #2f3d63;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.intro-container h1{
+    color: #d4a44f;
+    font-size: 18px;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.intro-container p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #7c736a;
+}
+
+/* ===== IMAGEM ===== */
+
+.imagem-app{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px 80px;
+}
+
+.imagem-app img{
+    width: 100%;
+    max-width: 1200px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* ===== BOTÃO TOPO ===== */
+
+.topo-container{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 40px 20px 80px;
+}
+
+/* ===== BOTÃO ===== */
+
+.btn-topo{
+    background-color: #2f3d63;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 14px 30px;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.btn-topo:hover{
+    background-color: #44598d;
+
+    transform: translateY(-4px);
+}
+

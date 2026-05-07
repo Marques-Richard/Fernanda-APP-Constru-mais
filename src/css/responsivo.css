@@ -1,0 +1,165 @@
+/* ============================= */
+/* TABLET (até 1200px) */
+/* ============================= */
+@media (max-width: 1200px) {
+
+    body {
+        font-size: 20px;
+    }
+
+    /* layout vira coluna */
+    .sobre-content,
+    .constru,
+    .container-empresa,
+    .container-redes {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    /* largura total */
+    .sobre-esquerda,
+    .sobre-direita {
+        max-width: 100%;
+    }
+
+    /* tipografia */
+    .header h1 {
+        font-size: 3.5rem;
+    }
+
+    .titulo-projeto {
+        font-size: 2.2rem;
+    }
+
+    .contato-titulo-projeto {
+        font-size: 2.8rem;
+    }
+
+    /* contato */
+    .contato-direita {
+        align-items: center;
+    }
+
+    .links-contato {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* ============================= */
+/* MOBILE (até 768px) */
+/* ============================= */
+@media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    /* container padding menor */
+    .container,
+    .constru,
+    .container-empresa,
+    .contato,
+    .ui-ux {
+        padding: 60px 5%;
+    }
+
+    /* header */
+    .header {
+        min-height: 70vh;
+    }
+
+    .header-content {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    /* SOBRE */
+    .sobre-esquerda h2 {
+        font-size: 2rem;
+    }
+
+    .destaque {
+        font-size: 2.2rem;
+    }
+
+    /* imagens */
+    .img-contru,
+    .img-empresa {
+        max-width: 100%;
+    }
+
+    /* títulos */
+    .titulo-projeto {
+        font-size: 1.8rem;
+    }
+
+    /* contato */
+    .contato-titulo-projeto {
+        font-size: 2rem;
+    }
+
+    .email {
+        font-size: 0.9rem;
+    }
+
+    /* footer */
+    .footer-imagem img {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+
+/* ===== RESPONSIVO do APP.HTML===== */
+
+@media(max-width:768px){
+
+    header{
+        padding: 20px;
+    }
+
+    .intro-container h1{
+        font-size: 32px;
+    }
+
+    .intro-container p{
+        font-size: 16px;
+    }
+
+}
+
+
+
+/* ===== RESPONSIVO - ESTILOEMPRESA ===== */
+
+@media(max-width:768px){
+
+    .intro-container{
+        text-align: left;
+    }
+
+    .intro-container h1{
+        font-size: 36px;
+    }
+
+    .intro-container p{
+        font-size: 16px;
+    }
+
+}

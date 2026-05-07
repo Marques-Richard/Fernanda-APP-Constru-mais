@@ -1,0 +1,188 @@
+/* ===== BODY ===== */
+
+body{
+    background-color: #f7f5f3;
+    font-family: "Space Grotesk", sans-serif;
+    color: #1f2937;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ===== HEADER ===== */
+
+header{
+    width: 100%;
+    padding: 20px 40px;
+}
+
+/* ===== BOTÃO ===== */
+
+.btn-voltar{
+    background-color: #2f3d63;
+    color: white;
+    text-decoration: none;
+
+    padding: 12px 24px;
+    border-radius: 10px;
+
+    transition: 0.3s ease;
+
+    display: inline-block;
+    font-weight: 600;
+}
+
+.btn-voltar:hover{
+    background-color: #44598d;
+    transform: translateY(-2px);
+}
+
+/* ===== INTRO ===== */
+
+.intro-app{
+    width: 100%;
+    padding: 20px 180px;
+}
+
+.intro-container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    text-align: left;
+}
+
+.tag-app{
+    color: #2f3d63;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+}
+
+.intro-container h1{
+    font-family: "Noto Serif JP", serif;
+    font-size: 52px;
+
+    color: #2f3d63;
+
+    margin: 12px 0;
+}
+
+.intro-container p{
+    font-size: 18px;
+
+    color: #282828;
+
+    line-height: 1.8;
+
+    max-width: 650px;
+}
+
+/* ===== EMPRESA ===== */
+.empresa {
+    padding: 20px 180px;
+}
+
+.empresa-app{
+    width: 100%;
+    padding: 40px 20px 5px;
+}
+
+.empresa-container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    text-align: left;
+}
+
+.tag-empresa{
+    font-family: "Noto Serif JP", serif;
+    color: #d4a44f;
+
+    font-size: 48px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+}
+
+.empresa-container h1{
+    font-family: "Noto Serif JP", serif;
+    font-size: 32px;
+
+    color: #2f3d63;
+
+    margin: 12px 0;
+}
+
+.empresa-container p{
+    font-size: 18px;
+
+    color: #282828;
+
+    line-height: 1.8;
+
+    max-width: 650px;
+}
+
+/* ===== IMAGEM ===== */
+
+.imagem-app{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 20px 80px;
+}
+
+.imagem-app img{
+    width: 100%;
+    max-width: 1000px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* ===== BOTÃO TOPO ===== */
+
+.topo-container{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 40px 20px 80px;
+}
+
+.btn-topo{
+    background-color: #2f3d63;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 14px 30px;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.btn-topo:hover{
+    background-color: #44598d;
+
+    transform: translateY(-4px);
+}
+
