@@ -1,6 +1,7 @@
 /* ============================= */
 /* TABLET (até 1200px) */
 /* ============================= */
+
 @media (max-width: 1200px) {
 
     body {
@@ -8,23 +9,28 @@
     }
 
     /* layout vira coluna */
+
     .sobre-content,
     .constru,
     .container-empresa,
     .container-redes {
+
         flex-direction: column;
         align-items: center;
         text-align: center;
+
         gap: 50px;
     }
 
     /* largura total */
+
     .sobre-esquerda,
     .sobre-direita {
         max-width: 100%;
     }
 
     /* tipografia */
+
     .header h1 {
         font-size: 3.5rem;
     }
@@ -38,40 +44,51 @@
     }
 
     /* contato */
-    .contato-direita {
+
+    .contato-direita{
         align-items: center;
     }
 
-    .links-contato {
+    .links-contato{
         flex-direction: column;
         gap: 15px;
     }
 
-    .footer-container {
+    /* footer */
+
+    .footer-container{
         flex-direction: column;
         text-align: center;
+    }
+
+    .redes-sociais-footer{
+        justify-content: center;
     }
 }
 
 /* ============================= */
 /* MOBILE (até 768px) */
 /* ============================= */
+
 @media (max-width: 768px) {
 
     body {
         font-size: 16px;
     }
 
-    /* container padding menor */
+    /* container */
+
     .container,
     .constru,
     .container-empresa,
     .contato,
     .ui-ux {
+
         padding: 60px 5%;
     }
 
     /* header */
+
     .header {
         min-height: 70vh;
     }
@@ -83,13 +100,16 @@
 
     .header h1 {
         font-size: 2.5rem;
+        line-height: 1.1;
     }
 
     .header p {
         font-size: 1rem;
+        line-height: 1.7;
     }
 
     /* SOBRE */
+
     .sobre-esquerda h2 {
         font-size: 2rem;
     }
@@ -99,34 +119,104 @@
     }
 
     /* imagens */
+
     .img-contru,
     .img-empresa {
         max-width: 100%;
     }
 
     /* títulos */
+
     .titulo-projeto {
         font-size: 1.8rem;
     }
 
     /* contato */
-    .contato-titulo-projeto {
+
+    .contato{
+        text-align: center;
+    }
+
+    .contato-direita{
+        align-items: center;
+    }
+
+    .contato-titulo-projeto{
         font-size: 2rem;
     }
 
-    .email {
+    .email{
         font-size: 0.9rem;
+
+        justify-content: center;
+        text-align: center;
+
+        flex-wrap: wrap;
+    }
+
+    .links-contato{
+
+        flex-direction: column;
+
+        align-items: center;
+
+        width: 100%;
+    }
+
+    .links-contato a{
+        width: 100%;
+        max-width: 260px;
+
+        justify-content: center;
     }
 
     /* footer */
-    .footer-imagem img {
+
+    .footer-container{
+        text-align: center;
+    }
+
+    .footer-texto{
+        text-align: center;
+    }
+
+    .footer-imagem img{
         width: 100%;
         max-width: 250px;
     }
+
+    /* redes sociais */
+
+    .redes-sociais-footer{
+
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        flex-wrap: wrap;
+
+        gap: 16px;
+    }
+
+    .redes-sociais-footer li{
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .redes-sociais-footer i{
+
+        width: 52px;
+        height: 52px;
+
+        font-size: 20px;
+    }
 }
 
-
-/* ===== RESPONSIVO do APP.HTML===== */
+/* ============================= */
+/* RESPONSIVO APP.HTML */
+/* ============================= */
 
 @media(max-width:768px){
 
@@ -141,12 +231,11 @@
     .intro-container p{
         font-size: 16px;
     }
-
 }
 
-
-
-/* ===== RESPONSIVO - ESTILOEMPRESA ===== */
+/* ============================= */
+/* RESPONSIVO EMPRESA.HTML */
+/* ============================= */
 
 @media(max-width:768px){
 
@@ -163,11 +252,13 @@
     }
 
     .intro-container h1{
+
         font-size: 42px;
         line-height: 1.1;
     }
 
     .intro-container p{
+
         font-size: 16px;
         line-height: 1.7;
 
@@ -179,6 +270,7 @@
     }
 
     .empresa-container p{
+
         font-size: 16px;
 
         max-width: 100%;
@@ -199,5 +291,4 @@
     .topo-container{
         padding-bottom: 50px;
     }
-
 }

@@ -97,6 +97,7 @@ section, article {
 
 .destaque {
     font-family: "Cormorant Upright", serif;
+    font-style: italic;
     font-size: 3.0rem;
     font-weight: bold;
     color: #ce783b;
@@ -361,7 +362,7 @@ hr {
 /* ===== FOOTER ===== */
 .footer {
     background: #f7f5f3;
-    color: #7c736a;
+    color: #5a534d;
     padding: 60px 8%;  /* mesmo padding das sections */
 }
 
@@ -380,15 +381,20 @@ hr {
 }
 
 .footer-texto h1 {
+    font-family: "Noto Serif JP", serif;
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #ce783b;
+    color: #000;
 }
 
 .footer-texto h2 {
     font-weight: 400;
     margin-bottom: 20px;
     font-size: 1rem;
+}
+
+.footer-texto h4 {
+    color: #282828;
 }
 
 .footer-texto p {
@@ -407,6 +413,22 @@ hr {
     margin-top: 40px;
     font-weight: normal;
     font-size: 0.7rem;
+}
+
+.destaque-footer {
+    font-family: "Cormorant Upright", serif;
+    font-style: italic;
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #ce783b;
+}
+
+.cor-destaque{
+    color: #ce783b;
+}
+
+.texto-email{
+    color: #2f3d63;
 }
 
 /* ===== REDES SOCIAIS ===== */
