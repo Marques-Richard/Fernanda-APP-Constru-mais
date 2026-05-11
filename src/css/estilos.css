@@ -285,34 +285,76 @@ hr {
     gap: 20px;
 }
 
-.email {
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #222;
-    transition: 0.3s;
-}
+/* ===== CONTATO email linkdin whatsapp===== */
 
-.email:hover {
-    color: #c97b2a;
-}
+.email,
+.links-contato a{
 
-.links-contato {
-    display: flex;
-    gap: 30px;
-}
-
-.links-contato a {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
+
     text-decoration: none;
-    color: #777;
-    transition: 0.3s;
+
+    color: #5a534d;
+
+    font-weight: 500;
+
+    transition: 0.3s ease;
 }
 
-.links-contato a:hover {
-    color: #c97b2a;
-    transform: translateX(5px);
+/* ===== EMAIL ===== */
+
+.email{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.email i{
+    font-size: 20px;
+}
+
+/* ===== LINKS ===== */
+
+.links-contato{
+    display: flex;
+    gap: 20px;
+}
+
+.links-contato a{
+    padding: 12px 20px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 12px;
+}
+
+/* ===== ÍCONES ===== */
+
+.links-contato a i{
+    font-size: 20px;
+}
+
+/* ===== HOVER ===== */
+
+.linkedin-link:hover{
+    background: #0A66C2;
+    color: white;
+    border-color: #0A66C2;
+
+    transform: translateY(-3px);
+}
+
+.whatsapp-link:hover{
+    background: #25D366;
+    color: white;
+    border-color: #25D366;
+
+    transform: translateY(-3px);
+}
+
+.email:hover{
+    opacity: 0.8;
 }
 
 /* ===== FOOTER ===== */
@@ -353,16 +395,6 @@ hr {
     font-size: 1.2rem;
 }
 
-.redes img {
-    width: 30px;
-    margin-right: 10px;
-    transition: 0.3s;
-}
-
-.redes img:hover {
-    transform: scale(1.2);
-}
-
 .footer-imagem img {
     width: 350px;
     border-radius: 10px 45px;
@@ -374,5 +406,87 @@ hr {
     margin-top: 40px;
     font-weight: normal;
     font-size: 0.7rem;
+}
+
+/* ===== REDES SOCIAIS ===== */
+
+.redes-sociais-footer{
+    display: flex;
+    gap: 20px;
+
+    margin-top: 25px;
+}
+
+.redes-sociais-footer li{
+    list-style: none;
+}
+
+.redes-sociais-footer a{
+    text-decoration: none;
+}
+
+.redes-sociais-footer i{
+
+    width: 55px;
+    height: 55px;
+
+    border: 2px solid #7c736a;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+
+    color: #7c736a;
+
+    transition: 0.4s ease;
+}
+
+/* ===== LINKEDIN ===== */
+
+.redes-sociais-footer a.linkedin:hover i{
+
+    background: #0A66C2;
+
+    border-color: #0A66C2;
+
+    color: white;
+
+    transform: translateY(-5px) scale(1.1);
+}
+
+/* ===== WHATSAPP ===== */
+
+.redes-sociais-footer a.whatsapp:hover i{
+
+    background: #25D366;
+
+    border-color: #25D366;
+
+    color: white;
+
+    transform: translateY(-5px) scale(1.1);
+}
+
+/* ===== INSTAGRAM ===== */
+
+.redes-sociais-footer a.instagram:hover i{
+
+    background: linear-gradient(
+        45deg,
+        #1877f2,
+        #833ab4,
+        #fd1d1d,
+        #fcb045
+    );
+
+    border: none;
+
+    color: white;
+
+    transform: translateY(-5px) scale(1.1);
 }
 

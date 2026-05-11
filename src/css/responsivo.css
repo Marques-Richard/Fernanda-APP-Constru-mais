@@ -150,16 +150,54 @@
 
 @media(max-width:768px){
 
+    .intro-app{
+        padding: 20px 25px;
+    }
+
+    .empresa{
+        padding: 20px 25px;
+    }
+
     .intro-container{
         text-align: left;
     }
 
     .intro-container h1{
-        font-size: 36px;
+        font-size: 42px;
+        line-height: 1.1;
     }
 
     .intro-container p{
         font-size: 16px;
+        line-height: 1.7;
+
+        max-width: 100%;
+    }
+
+    .empresa-container h1{
+        font-size: 28px;
+    }
+
+    .empresa-container p{
+        font-size: 16px;
+
+        max-width: 100%;
+    }
+
+    .tag-empresa{
+        font-size: 34px;
+    }
+
+    .imagem-app{
+        padding: 10px 15px 50px;
+    }
+
+    .imagem-app img{
+        border-radius: 14px;
+    }
+
+    .topo-container{
+        padding-bottom: 50px;
     }
 
 }
